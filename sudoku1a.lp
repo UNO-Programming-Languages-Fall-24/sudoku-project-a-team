@@ -6,4 +6,15 @@
 
 % Your implementation please...
 
-#show sudoku/3.
+% pretty sure ex00.json is wrong...
+
+%%% Constants
+#const n = 4.
+
+%%% Generate
+{cell(X,Y)} = 1 :- X = 1..n, Y = 1..n.
+
+%%% Test
+
+%%% Show
+%#show sudoku/3.
